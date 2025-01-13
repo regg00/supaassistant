@@ -1,0 +1,299 @@
+Supa Assistant:
+  modes:
+    dark:
+      # Color variables
+      text: "#c7c7c7" # Primary text color
+      pureWhite: "#ffffff" # Used for checkboxes and toggles
+      subtext: "#7e7e7e" # Secondary text color
+      divider: "#2d2d2d" # Line divider
+      primaryBackground: "#171717" # Background main color
+      secondaryBackground: "#171717" # Sidebar and header color
+      cardBackground: "#1d1d1d" # Cards background
+      cardBorder: "#2f2f2f" # Cards border color
+      red: "#d20f39" # Red state
+      yellow: "#df8e1d" # Yellow state
+      green: "#53c486" # Green state and primary accent color
+      blue: "#1e66f5" # Blue state
+      overlay: "#9ca0b0"
+      surface: "#ccd0da"
+
+      ###########################
+
+      # Header
+      app-header-background-color: var(--primaryBackground)
+      app-header-text-color: var(--text)
+
+      # Main Interface colors
+      primary-color: var(--green)
+      light-primary-color: var(--primary-color)
+
+      primary-background-color: var(--primaryBackground)
+      secondary-background-color: var(--primaryBackground)
+      accent-color: var(--yellow)
+
+      # Text
+      primary-text-color: var(--text)
+      secondary-text-color: var(--subtext)
+      text-primary-color: var(--text)
+      divider-color: var(--divider)
+      disabled-text-color: var(--overlay)
+      text-accent-color: var(--text)
+
+      # Sidebar
+      sidebar-background-color: var(--secondaryBackground)
+      sidebar-selected-background-color: var(--primary-background-color)
+
+      sidebar-icon-color: var(--subtext)
+      sidebar-text-color: var(--subtext)
+      sidebar-selected-icon-color: var(--green)
+      sidebar-selected-text-color: var(--green)
+
+      # Buttons
+      paper-item-icon-color: var(--subtext)
+      paper-item-icon-active-color: var(--primary-color)
+
+      # States and Badges
+      state-icon-color: var(--primary-color)
+      state-icon-active-color: var(--primary-color)
+
+      state-icon-unavailable-color: var(--disabled-text-color)
+
+      # Sliders
+      paper-slider-knob-color: var(--blue)
+      paper-slider-knob-start-color: var(--paper-slider-knob-color)
+      paper-slider-pin-color: var(--paper-slider-knob-color)
+      paper-slider-active-color: var(--paper-slider-knob-color)
+      paper-slider-secondary-color: var(--blue)
+
+      # Labels
+      label-badge-background-color: var(--surface)
+      label-badge-text-color: var(--text)
+      label-badge-red: var(--red)
+      label-badge-green: var(--green)
+      label-badge-blue: var(--blue)
+      label-badge-yellow: var(--yellow)
+      label-badge-gray: var(--overlay)
+
+      # Checkboxes
+      #mdc-select-fill-color: var(--surface)
+      mdc-select-ink-color: var(--primary-text-color)
+      mdc-select-label-ink-color: var(--subtext)
+      mdc-select-idle-line-color: var(--primary-text-color)
+      mdc-select-dropdown-icon-color: var(--secondary-text-color)
+      mdc-select-hover-line-color: var(--accent-color)
+
+      # Radio buttons
+      mdc-radio-disabled-color: var(--subtext)
+      mdc-radio-unchecked-color: var(--subtext)
+
+      # Cards
+      card-background-color: var(--cardBackground)
+      ha-card-background: var(--card-background-color)
+
+      ha-card-border-radius: "8px"
+      ha-card-box-shadow: none
+      ha-card-border-width: "1px"
+      ha-card-border-color: var(--cardBorder)
+      paper-dialog-background-color: var(--overlay)
+      paper-listbox-background-color: var(--overlay)
+      paper-card-background-color: var(--card-background-color)
+
+      # Switches
+      switch-checked-button-color: var(--pureWhite)
+      switch-checked-track-color: var(--green)
+      switch-unchecked-button-color: rgb(--pureWhite)
+      switch-unchecked-track-color: rgb(--surface)
+
+      # Toggles
+      paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+      paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+      paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+      paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+
+      # Table
+      table-row-background-color: var(--primary-background-color)
+      table-row-alternative-background-color: var(--secondary-background-color)
+      data-table-background-color: var(--primary-background-color)
+      mdc-checkbox-unchecked-color: var(--overlay)
+
+      # Dropdowns
+      material-background-color: var(--primary-background-color)
+      material-secondary-background-color: var(--primary-background-color)
+      mdc-theme-surface: var(--primary-background-color)
+
+      # Pre/Code
+      markdown-code-background-color: var(--surface)
+
+      # Input
+      input-fill-color: var(--secondary-background-color)
+      input-dropdown-icon-color: var(--secondary-text-color)
+      input-ink-color: var(--primary-text-color)
+      input-label-ink-color: var(--secondary-text-color)
+      input-idle-line-color: var(--primary-text-color)
+      input-hover-line-color: var(--accent-color)
+      input-disabled-ink-color: var(--disabled-text-color)
+      input-disabled-line-color: var(--disabled-text-color)
+      input-outlined-idle-border-color: var(--disabled-text-color)
+      input-outlined-hover-border-color: var(--disabled-text-color)
+      input-outlined-disabled-border-color: var(--disabled-text-color)
+      input-disabled-fill-color: rgba(0, 0, 0, 0)
+
+      # Toast
+      paper-toast-background-color: var(--overlay)
+
+      # Colors
+      error-color: var(--red)
+      warning-color: var(--yellow)
+      success-color: var(--green)
+      info-color: var(--blue)
+      state-on-color: var(--green)
+      state-off-color: var(--red)
+
+    light:
+      # Color variables
+      text: "#444444" # Primary text color
+      pureWhite: "#ffffff" # Used for checkboxes and toggles
+      subtext: "#656565" # Secondary text color
+      divider: "#dbdadb" # Line divider
+      primaryBackground: "#f7f7f7" # Background main color
+      secondaryBackground: "#f7f7f7" # Sidebar and header color
+      cardBackground: "#fbfbfb" # Cards background
+      cardBorder: "#dbdadb" # Cards border color
+      red: "#d20f39" # Red state
+      yellow: "#df8e1d" # Yellow state
+      green: "#53c486" # Green state and primary accent color
+      blue: "#1e66f5" # Blue state
+      overlay: "#9ca0b0"
+      surface: "#ccd0da"
+
+      ###########################
+
+      # Header
+      app-header-background-color: var(--primaryBackground)
+      app-header-text-color: var(--text)
+
+      # Main Interface colors
+      primary-color: var(--green)
+      light-primary-color: var(--primary-color)
+
+      primary-background-color: var(--primaryBackground)
+      secondary-background-color: var(--primaryBackground)
+      accent-color: var(--yellow)
+
+      # Text
+      primary-text-color: var(--text)
+      secondary-text-color: var(--subtext)
+      text-primary-color: var(--text)
+      divider-color: var(--divider)
+      disabled-text-color: var(--overlay)
+      text-accent-color: var(--text)
+
+      # Sidebar
+      sidebar-background-color: var(--secondaryBackground)
+      sidebar-selected-background-color: var(--primary-background-color)
+
+      sidebar-icon-color: var(--subtext)
+      sidebar-text-color: var(--subtext)
+      sidebar-selected-icon-color: var(--green)
+      sidebar-selected-text-color: var(--green)
+
+      # Buttons
+      paper-item-icon-color: var(--subtext)
+      paper-item-icon-active-color: var(--primary-color)
+
+      # States and Badges
+      state-icon-color: var(--primary-color)
+      state-icon-active-color: var(--primary-color)
+
+      state-icon-unavailable-color: var(--disabled-text-color)
+
+      # Sliders
+      paper-slider-knob-color: var(--blue)
+      paper-slider-knob-start-color: var(--paper-slider-knob-color)
+      paper-slider-pin-color: var(--paper-slider-knob-color)
+      paper-slider-active-color: var(--paper-slider-knob-color)
+      paper-slider-secondary-color: var(--blue)
+
+      # Labels
+      label-badge-background-color: var(--surface)
+      label-badge-text-color: var(--text)
+      label-badge-red: var(--red)
+      label-badge-green: var(--green)
+      label-badge-blue: var(--blue)
+      label-badge-yellow: var(--yellow)
+      label-badge-gray: var(--overlay)
+
+      # Checkboxes
+      #mdc-select-fill-color: var(--surface)
+      mdc-select-ink-color: var(--primary-text-color)
+      mdc-select-label-ink-color: var(--subtext)
+      mdc-select-idle-line-color: var(--primary-text-color)
+      mdc-select-dropdown-icon-color: var(--secondary-text-color)
+      mdc-select-hover-line-color: var(--accent-color)
+
+      # Radio buttons
+      mdc-radio-disabled-color: var(--subtext)
+      mdc-radio-unchecked-color: var(--subtext)
+
+      # Cards
+      card-background-color: var(--cardBackground)
+      ha-card-background: var(--card-background-color)
+
+      ha-card-border-radius: "8px"
+      ha-card-box-shadow: none
+      ha-card-border-width: "1px"
+      ha-card-border-color: var(--cardBorder)
+      paper-dialog-background-color: var(--overlay)
+      paper-listbox-background-color: var(--overlay)
+      paper-card-background-color: var(--card-background-color)
+
+      # Switches
+      switch-checked-button-color: var(--pureWhite)
+      switch-checked-track-color: var(--green)
+      switch-unchecked-button-color: rgb(--pureWhite)
+      switch-unchecked-track-color: rgb(--surface)
+
+      # Toggles
+      paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+      paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+      paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+      paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+
+      # Table
+      table-row-background-color: var(--primary-background-color)
+      table-row-alternative-background-color: var(--secondary-background-color)
+      data-table-background-color: var(--primary-background-color)
+      mdc-checkbox-unchecked-color: var(--overlay)
+
+      # Dropdowns
+      material-background-color: var(--primary-background-color)
+      material-secondary-background-color: var(--primary-background-color)
+      mdc-theme-surface: var(--primary-background-color)
+
+      # Pre/Code
+      markdown-code-background-color: var(--surface)
+
+      # Input
+      input-fill-color: var(--secondary-background-color)
+      input-dropdown-icon-color: var(--secondary-text-color)
+      input-ink-color: var(--primary-text-color)
+      input-label-ink-color: var(--secondary-text-color)
+      input-idle-line-color: var(--primary-text-color)
+      input-hover-line-color: var(--accent-color)
+      input-disabled-ink-color: var(--disabled-text-color)
+      input-disabled-line-color: var(--disabled-text-color)
+      input-outlined-idle-border-color: var(--disabled-text-color)
+      input-outlined-hover-border-color: var(--disabled-text-color)
+      input-outlined-disabled-border-color: var(--disabled-text-color)
+      input-disabled-fill-color: rgba(0, 0, 0, 0)
+
+      # Toast
+      paper-toast-background-color: var(--overlay)
+
+      # Colors
+      error-color: var(--red)
+      warning-color: var(--yellow)
+      success-color: var(--green)
+      info-color: var(--blue)
+      state-on-color: var(--green)
+      state-off-color: var(--red)
