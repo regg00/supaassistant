@@ -1,4 +1,4 @@
-Supa Assistant:
+Test:
   modes:
     dark:
       # Color variables
@@ -14,6 +14,7 @@ Supa Assistant:
       yellow: "#df8e1d" # Yellow state
       green: "#53c486" # Green state and primary accent color
       blue: "#1e66f5" # Blue state
+      codeBackground: "#252525" # Background for code and markdown
       overlay: "#9ca0b0"
       surface: "#ccd0da"
 
@@ -122,7 +123,7 @@ Supa Assistant:
       mdc-theme-surface: var(--primary-background-color)
 
       # Pre/Code
-      markdown-code-background-color: var(--surface)
+      markdown-code-background-color: var(--codeBackground)
 
       # Input
       input-fill-color: var(--secondary-background-color)
@@ -163,6 +164,7 @@ Supa Assistant:
       yellow: "#df8e1d" # Yellow state
       green: "#53c486" # Green state and primary accent color
       blue: "#1e66f5" # Blue state
+      codeBackground: "#ebebeb" # Background for code and markdown
       overlay: "#9ca0b0"
       surface: "#ccd0da"
 
@@ -271,7 +273,7 @@ Supa Assistant:
       mdc-theme-surface: var(--primary-background-color)
 
       # Pre/Code
-      markdown-code-background-color: var(--surface)
+      markdown-code-background-color: var(--codeBackground)
 
       # Input
       input-fill-color: var(--secondary-background-color)
