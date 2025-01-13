@@ -1,8 +1,7 @@
 <p align="center">
-	<img src="./assets/dark.png"/>
-    <img src="./assets/light.png"/>
+	<img src="https://raw.githubusercontent.com/regg00/supaassistant/main/assets/dark.png"/>
+    <img src="https://raw.githubusercontent.com/regg00/supaassistant/main/assets/light.png"/>
 </p>
-
 ## Usage
 
 ### With [HACS](https://hacs.xyz/)
